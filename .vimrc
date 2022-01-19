@@ -28,6 +28,7 @@ set smarttab
 set expandtab
 set shiftwidth=4
 set softtabstop=4
+set showtabline=2
 
 set cursorline
 set termguicolors
@@ -38,5 +39,6 @@ set encoding=UTF-8
 nmap <space>e :NERDTree<CR>
 nmap <C-s> :w<CR>
 nmap <C-p> :Files<CR>
+nmap <space>t :tabnew<CR>
 command! Relaod :so ~/.vimrc
 
